@@ -155,4 +155,16 @@ git add .
 git commit -m "Updated analysis results"
 git push origin main
 ```
+###Challenges Faced
 
+1.Setting Up Hadoop Cluster: Configuring and initializing the Hadoop cluster within the Docker environment posed initial challenges, requiring debugging and tuning of settings.
+
+2.Handling Large Log Files: Processing large volumes of log data led to memory and performance issues, which necessitated optimization techniques.
+
+3.Query Optimization: Optimizing Hive queries to ensure efficient execution, particularly when dealing with partitioning and aggregations, required tuning.
+
+4.Partitioning Strategy: Implementing dynamic partitioning effectively while ensuring the correct partition placement was a complex task.
+
+5.Data Cleaning and Formatting: Handling inconsistencies in the log files, such as missing or malformed entries, added an extra layer of preprocessing effort.
+
+6.Extracting Insights: Deriving meaningful insights from raw logs and ensuring accurate analysis required iterative refinements in queries and analysis techniques.
